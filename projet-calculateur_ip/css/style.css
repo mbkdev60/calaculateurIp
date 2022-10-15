@@ -1,0 +1,73 @@
+body {
+    background: rgb(65,159,120);
+    background: radial-gradient(circle, rgba(65,159,120,1) 10%, rgba(58,129,63,1) 49%, rgba(31,33,33,1) 75%, rgba(31,33,33,1) 83%, rgba(31,33,33,1) 94%);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size:16px;
+    box-sizing: border-box;
+}
+#calc-ip {
+    background: rgb(229, 234, 241);
+    border: 2px solid rgb(94, 72, 12);
+    border-radius: 15px;
+    width: 40rem;
+    height: auto;
+    margin: 50px auto;
+    padding: 15px;
+    box-shadow: 3px 3px 14px #0d2702;
+}
+#calc-title {
+    font-size: 2.2rem;
+    text-align: center;
+    color: rgb(27, 117, 24);
+}
+.sub-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.addr {
+    width:6rem;
+    margin: 0.8rem 0.8rem 0.5rem 1.5rem;
+    text-align: center;
+}
+#calc {
+    margin-top: 0.1rem;
+    margin-right: auto;
+    padding: 15px;
+    width: 160px;
+}
+#calc-btn{
+    text-decoration:none;
+    padding: 5px 5px;
+    width: 8rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(3, 70, 70);
+    background-color: #8ce684;
+    border-radius: 20px;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 12px #444444;
+} 
+#calc-btn:hover {
+    padding: 6px 8px;
+    font-family: arial;
+    font-size: 0.8rem;
+    color: #8ce684;
+    background-color: rgb(3, 70, 70);
+    border: 4px solid #FFFFFF;
+    box-shadow: 1px 1px 4px #777777;
+    cursor: pointer;
+}
+.result {
+    margin-top: 0.1rem;
+    padding-top: 0.1rem;
+    line-height: 1.5rem;
+}
+.result .label {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculateur IP</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" type="module"></script>
+  </head>
+  <body>
+    <div id="calc-ip">
+      <h1 id="calc-title">Calculateur IP</h1>
+      <label for="add" class="sub-title">Address</label>
+      <br />
+      <input type="number" class="addr" id="q1" />
+      <input type="number" class="addr" id="q2" />
+      <input type="number" class="addr" id="q3" />
+      <input type="number" class="addr" id="q4" />
+      <br />
+      <label for="masque" class="sub-title">Mask</label>
+      <br />
+      <input type="number" class="addr" id="m1" />
+      <input type="number" class="addr" id="m2" />
+      <input type="number" class="addr" id="m3" />
+      <input type="number" class="addr" id="m4" />
+      <br />
+      <div id="calc">
+        <button id="calc-btn">Calculate</button>
+      </div>
+      <br />
+      <div class="result hidden">
+        <span class="label">IP Address :</span>
+        <span class="value" id="resIP"></span>
+        <br />
+        <span class="label">IP Binary :</span>
+        <span class="value" id="resBinIP"></span>
+        <br />
+        <span class="label">Subnet mask :</span>
+        <span class="value" id="resMask"></span>
+        <br />
+        <span class="label">Mask Binary :</span>
+        <span class="value" id="resBinMask"></span>
+        <br />
+        <span class="label">Net Address :</span>
+        <span class="value" id="resNet"></span>
+        <br />
+        <span class="label">Net Address Binary :</span>
+        <span class="value" id="resBinNet"></span>
+        <br />
+        <span class="label">Broadcast Address :</span>
+        <span class="value" id="resBC"></span>
+        <br />
+        <span class="label">BC Address Binary :</span>
+        <span class="value" id="resBinBC"></span>
+        <br />
+        <span class="label">Standard Class :</span>
+        <span class="value" id="resClass"></span>
+        <br />
+        <span class="label">1st Address :</span>
+        <span class="value" id="firstAdd"></span>
+        <br />
+        <span class="label">1st Address Binary:</span>
+        <span class="value" id="firstAddBin"></span>
+        <br />
+        <span class="label">Last Address :</span>
+        <span class="value" id="lastAdd"></span>
+        <br />
+        <span class="label">Last Address Binary :</span>
+        <span class="value" id="lastAddBin"></span>
+        <br />
+        <span class="label">Hosts number :</span>
+        <span class="value" id="hostNum"></span>
+      </div>
+    </div>
+  </body>
+</html>
